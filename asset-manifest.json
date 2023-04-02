@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Social_network/static/css/main.dd6567c9.css",
+    "main.js": "/Social_network/static/js/main.3b79640f.js",
+    "static/js/787.b0e29ad6.chunk.js": "/Social_network/static/js/787.b0e29ad6.chunk.js",
+    "static/media/guys.JPG": "/Social_network/static/media/guys.6b466036f79a45958301.JPG",
+    "static/media/preloader_trans.gif": "/Social_network/static/media/preloader_trans.b93af8ab5177ec33be6e.gif",
+    "static/media/messages.png": "/Social_network/static/media/messages.a7384ecae7d2b36a6d50.png",
+    "static/media/settings.svg": "/Social_network/static/media/settings.eb90debed4aa35a362c737b6771c434e.svg",
+    "static/media/info.svg": "/Social_network/static/media/info.b0a5a850731c7bb592c8c65f3de97a8a.svg",
+    "static/media/music.svg": "/Social_network/static/media/music.b8be5eaf4dfa40910bb45f0315be0d4f.svg",
+    "static/media/profile.svg": "/Social_network/static/media/profile.61299a0b6cc50a7bde915a8aaf932d53.svg",
+    "static/media/work.svg": "/Social_network/static/media/work.c751796fb62a092cdb453be864fd3213.svg",
+    "index.html": "/Social_network/index.html",
+    "static/media/location.svg": "/Social_network/static/media/location.50e809eebb11021f7e674a15d1eb3ff0.svg",
+    "main.dd6567c9.css.map": "/Social_network/static/css/main.dd6567c9.css.map",
+    "main.3b79640f.js.map": "/Social_network/static/js/main.3b79640f.js.map",
+    "787.b0e29ad6.chunk.js.map": "/Social_network/static/js/787.b0e29ad6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd6567c9.css",
+    "static/js/main.3b79640f.js"
+  ]
+}
