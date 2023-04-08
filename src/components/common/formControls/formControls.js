@@ -45,6 +45,6 @@ export const Element = Element => ({ input, meta, ...props }) => {
 export const createField = ( placeholder,name,initialValue,validators,component,props={},text='')=>{
     return(<div>
     <Field component={component} validate={validators} name={name} {...props} placeholder={placeholder} initialValue={initialValue}/>
-    {text}
+    <p>{text}</p>
     </div>)
 }

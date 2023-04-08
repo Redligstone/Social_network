@@ -24,7 +24,6 @@ header{
     grid-template-areas: 
     "s m";
     grid-template-columns: 164px 910px;
-
 }
 .sidebar{
     position: fixed;
@@ -35,4 +34,10 @@ header{
 .main{
     margin-left: 10px;
     grid-area: m;
+}
+@media(max-width:1360px){
+    .App{
+        margin-top: 65px;
+        grid-template-columns: 124px 610px;
+    }
 }

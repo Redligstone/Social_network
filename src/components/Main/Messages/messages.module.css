@@ -3,16 +3,15 @@
     grid-template-columns: 4fr 7fr;
     border-radius: 10px;
     overflow: hidden;
-    /* box-shadow: -1px 1px 5px 1px rgba(34, 60, 80, 0.2); */
 }
 
 .dialog_items{
-    background-color: rgb(247, 250, 255);
+    background-color: rgb(230, 230, 230);
     height: calc(100vh - 90px);
     overflow: auto;
 }
 .dialog_item{
-    background-color: rgb(247, 250, 255);
+    background-color: rgb(240, 240, 240);
     padding: 15px 0px 15px 30px;
     font-size: 22px;
     transition: all 0.2s;

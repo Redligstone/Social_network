@@ -13,10 +13,13 @@ const LoginForm = (props) => {
     // const initialValues = { myField: 'Initial value' };
     debugger
     return (
-        <form onSubmit={props.handleSubmit}>
+        <form onSubmit={props.handleSubmit} className={s.form}>
             {createField("логин",'email','',required,Input)}
             {createField("пароль",'password','',[required,maxLength20],Input,{ type:"password"})}
-            {createField(null,'rememberMe','',[],Input,{type:"checkbox", initialValue:true},'запомнить меня')}
+            <div className={s.rememberMe}>
+                <p className={s.rememberMeTitle}>Запомнить меня</p>
+                {createField(null,'rememberMe','',[],Input,{type:"checkbox", initialValue:true})}
+            </div>
             {props.captchaUrl && <img src={props.captchaUrl}></img>}
             {props.captchaUrl && createField('капча','captcha','',[required],Input)}
 

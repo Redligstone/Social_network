@@ -3,6 +3,7 @@ import LoginReduxForm from "./login_form";
 import { login } from "../../redux/auth_reducer";
 import { connect } from "react-redux";
 import { Navigate } from "react-router-dom";
+import s from './loginForm.module.css'
 
 
 const Login = (props) =>{
@@ -20,8 +21,9 @@ const Login = (props) =>{
     // }
 
     return(
-        <div>
-            <h1>Войти</h1>
+        <div className={s.loginContent}>
+            <img src='https://www.svgrepo.com/show/303449/vk-1-logo.svg' className={s.img} />
+            <span className={s.title}>Вход ВКонтакте</span>
             {/* onSubmit здесь это слушатель, а не пропс */}
             <LoginReduxForm onSubmit={onSubmit} captchaUrl={props.captchaUrl}/>
         </div>

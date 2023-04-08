@@ -1,3 +1,80 @@
 .formSummaryError{
     color:red
 }
+.loginContent{
+    margin: 0 auto;
+    width: 450px;
+    height:500px ;
+    border-radius: 10px;
+    background-color:white;
+    padding: 80px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form input{
+    width: 350px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: rgb(252, 252, 252);
+    margin-bottom: 10px;
+}
+.form button{
+    background-color:#6199da;
+    width: 350px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 7px 0px;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    letter-spacing: 1px;
+    color: white;
+}
+.form button:hover{
+    opacity: 0.85;
+}
+.form button:active{
+    opacity: 0.5;
+}
+.img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.form p{
+    font-size: 20px;
+}
+.rememberMe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.rememberMe input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    margin-top: 6px;
+}
+.rememberMeTitle{
+    display: block;
+    padding-right: 15px;
+}
+
