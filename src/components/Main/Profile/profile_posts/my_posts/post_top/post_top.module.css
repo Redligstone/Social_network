@@ -1,0 +1,44 @@
+.container {
+    height: 60px;
+    margin: 20px 25px 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+.ava {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.title {
+    margin-right: 650px;
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 2px;
+    text-decoration: none;
+    color: rgb(86, 118, 165);
+}
+.name:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.data {
+    cursor: pointer;
+    color: rgb(167, 167, 167);
+    text-decoration: none;
+}
+.data:hover {
+    text-decoration: underline;
+}
+
+.options {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    filter: invert(48%) sepia(79%) saturate(10%) hue-rotate(150deg) brightness(1500%) contrast(10%);
+}

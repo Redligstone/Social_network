@@ -1,0 +1,9 @@
+.container{
+    z-index: 4;
+    background-color: rgb(253, 253, 253);
+    max-height: 1300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 900px;
+    overflow: hidden;
+}

@@ -1,0 +1,93 @@
+.wrapper{
+    z-index: 4;
+    background-color: rgb(253, 253, 253);
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.container{
+    width: 860px;
+    margin: 0 auto;
+    padding: 20px 0;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.postTop{
+    display: flex;
+    justify-content: space-between;
+}
+.postBottom{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.ava{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.smile{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    opacity: 0.7;
+    filter: invert(48%) sepia(79%) saturate(30%) hue-rotate(190deg) brightness(40%) contrast(90%);
+}
+.smile:hover{
+    opacity: 1;
+}
+
+.text{
+    width: 750px;
+    height: 65px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: none;
+    resize: none;
+}
+.img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+    filter: invert(48%) sepia(79%) saturate(50%) hue-rotate(190deg) brightness(70%) contrast(90%);
+    opacity: 0.7;
+}
+.img:hover{
+    opacity: 1;
+}
+.input{
+    display: none;
+}
+.set{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer;
+    filter: invert(48%) sepia(79%) saturate(50%) hue-rotate(190deg) brightness(70%) contrast(90%);
+    margin-right: 10px;
+    opacity: 0.7;
+}
+.set:hover{
+    opacity: 1;
+}
+.public{
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    padding: 7px 18px;
+    color: aliceblue;
+    background-color: rgb(107, 165, 212);
+    border: none;
+}
+.public:hover{
+    opacity: 0.9;
+}

@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    max-height: 910px;
+    margin-bottom: 15px;
+}
+.text{
+    width: 860px;
+    margin: 20px auto;
+    margin-top: 0px;
+}
+.text p:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.imgWrap{
+    width: 860px;
+    margin: 0 auto;
+    max-height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}

@@ -1,0 +1,32 @@
+
+.wrapper{
+    padding: 0px 5px 20px 5px;
+}
+.page:first-child{
+    padding: 4px 10px 4px 0px;
+}
+.page{
+    width: 100%;
+    border-radius: 5px;
+    transition: all 0.1s;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+.page:hover{
+    background-color: rgba(168, 191, 209, 0.2);
+}
+.link span{
+    font-size: 12px;
+    padding-left: 10px;
+}
+.image{
+    height: 18px;
+    width: 18px;
+    filter: invert(48%) sepia(79%) saturate(2300%) hue-rotate(190deg) brightness(80%) contrast(110%);
+    padding-left: 10px;
+    vertical-align: middle;
+}

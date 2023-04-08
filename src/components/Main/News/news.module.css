@@ -1,0 +1,16 @@
+.content{
+    
+    height: 277px;
+    border-radius: 10px;
+    
+    
+}
+.img{
+    height: 100%;
+    width:100%;
+    object-fit:cover;
+    object-position:50% 75%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}

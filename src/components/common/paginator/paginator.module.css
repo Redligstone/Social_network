@@ -1,0 +1,49 @@
+
+.pages{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-size: 18px;
+}
+.pages span{
+    padding: 5px 10px;
+    margin: 0 1px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(119, 165, 218);
+    color: aliceblue;
+    transition: all 0.3s;
+}
+.pages span:hover{
+    background-color: rgb(143, 188, 240);
+    color: aliceblue;
+}
+.pages span:active{
+    background-color: rgb(102, 146, 197);
+}
+.selected_page{ 
+    display: inline;
+    font-weight: 700;
+    font-size: 26px;
+}
+.backButton,.nextButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+}
+.backButton img:hover,.nextButton img:hover{
+    filter: invert(48%) sepia(79%) saturate(2600%) hue-rotate(195deg) brightness(80%) contrast(150%);
+}
+.backButton img:active,.nextButton img:active{
+    filter: invert(48%) sepia(79%) saturate(1900%) hue-rotate(195deg) brightness(40%) contrast(150%);
+}
+
+.backButton img,.nextButton img{
+    filter: invert(48%) sepia(79%) saturate(2300%) hue-rotate(190deg) brightness(55%) contrast(110%);
+    height: 50px;
+    width: 50px;
+}

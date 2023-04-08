@@ -1,0 +1,59 @@
+.container{
+    max-width: 1065px;
+    margin: 0 auto;
+    display: flex;
+    height: 48px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+.logo{
+    display: flex;
+}
+.img{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+.title{
+padding-left: 8px;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 0.7px;
+}
+
+.loginBlock{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginBlock a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(107, 165, 212);
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.loginBlock a:hover{
+    text-decoration: underline;
+    opacity: 0.85;
+}
+.loginBlock a:active{
+    opacity: 0.5;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.account img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.account span{
+    margin-left: 5px;
+}

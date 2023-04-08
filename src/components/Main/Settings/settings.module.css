@@ -1,0 +1,91 @@
+.about {
+    background-color: white;
+    border-radius: 10px;
+    width: 700px;
+    margin-bottom: 40px;
+    overflow: scroll;
+    padding: 20px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.aboutData{
+    margin-bottom: 10px;
+}
+.infoTitle{
+    font-size: 24px;
+    margin-bottom: 10px;
+    width: 700px;
+    word-wrap: break-word;
+}
+.contact{
+    font-size: 18px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+.editButton,.saveButton{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(107, 165, 212);
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.editButton:hover,.saveButton:hover{
+    opacity: 0.85;
+    cursor: pointer;
+}
+.editButton:active,.saveButton:active{
+    opacity: 0.5;
+}
+.form span{
+    font-size: 22px;
+margin-bottom: 5px;
+display: inline-block;
+}
+.lookingForAJob{
+    display: flex;
+    align-items: center;
+}
+.lookingForAJob input[type="checkbox"]{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 18px;
+    height: 18px;
+}
+.form textarea{
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 18px;
+    height: 100px;
+    width:300px;
+    resize: none;
+}
+.form input{
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 18px;
+    height: 30px;
+    width:300px;
+    border: 1px solid;
+}
+
+.contactForm{
+    font-size: 20px;
+}
+.contactForm input{
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.formSummaryError{
+   color: rgb(255, 255, 255); 
+   background-color: rgb(240, 86, 86);
+   display: block;
+   width: 300px;
+   padding: 5px 10px;
+   word-wrap: break-word;
+   border-radius: 10px;
+   margin: 5px 0px;
+}

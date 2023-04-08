@@ -1,0 +1,119 @@
+.background{
+    display: grid;
+    grid-template-columns: 4fr 4.5fr;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    width: 250px;
+}
+.name{
+    margin-bottom: 10px;
+}
+.firstName{
+font-size: 30px;
+font-weight: 700;
+
+}
+.secondName{
+font-size: 20px;
+font-weight: 700;
+margin-left: 5px;
+}
+.status{
+    
+    margin-bottom: 15px;
+    
+}
+.content_status{
+    font-size: 18px;
+    font-weight: 400;
+    width: 260px;
+    max-height: 100px;
+    word-wrap: break-word;
+}
+.content textarea{
+    font-size: 16px;
+    width: 260px;
+    height: 40px;
+    overflow: auto;
+    border: none;
+    resize: none;
+}
+
+
+.links{
+    display: flex;
+    gap: 15px;
+}
+.links a{
+    text-decoration: none;
+    color: rgb(144, 155, 170);
+    font-size: 12px;
+    font-weight: 500;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.link{
+    margin-left: 3px;
+}
+.link.work{
+    margin-left: 5px;
+}
+.image{
+    width: 20px;
+    height: 20px;
+    filter: invert(48%) sepia(79%) saturate(50%) hue-rotate(190deg) brightness(70%) contrast(90%);
+}
+.image:hover{
+    text-decoration: underline;
+}
+.image.what{
+    margin-left: -5px;
+}
+.city, .uni, .else{
+    display: flex;
+    align-items:flex-start;
+}
+
+.about{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.contact{
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.formSummaryError{
+    color:red
+}
+
+.infoTitle{
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 300px;
+    word-wrap: break-word;
+}
+.editButton{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 14px;
+    background-color: rgb(107, 165, 212);
+    padding: 6px 12px;
+    border-radius: 10px;
+   
+}
+.editButton:hover{
+    opacity: 0.85;
+    cursor: pointer;
+}
+.editButton:active{
+    opacity: 0.5;
+}
