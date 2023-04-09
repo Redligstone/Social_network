@@ -4,13 +4,19 @@ import { createField, Element } from "../common/formControls/formControls";
 // import { Input } from "../common/formControls/formControls";
 import { MaxLength, required } from "../utilits/validators";
 import s from './loginForm.module.css'
+import { useEffect } from "react";
 
 let maxLength20 = MaxLength(20);
 const Input = Element("input");
 
 
 const LoginForm = (props) => {
-    // const initialValues = { myField: 'Initial value' };
+
+    const LoginForm = (props) => {
+        useEffect(() => {
+            // Fetch data or side effects here
+        }, [props]);} 
+
     debugger
     return (
         <form onSubmit={props.handleSubmit} className={s.form}>

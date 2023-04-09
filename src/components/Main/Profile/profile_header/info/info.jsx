@@ -35,8 +35,6 @@ let Info = ({ isOwner, profile, status, updateStatus, saveProfile,isAuth }) => {
 
                 <div className={s.status}>
                     <ProfileStatusWithHook status={status} updateStatus={updateStatus} />
-                    {/* {profile.aboutMe} */}
-                    {/* В старости за тобой не друзья будут ухаживать, а жена… не ставьте любовь ниже дружбы! */}
                 </div>
 
                 <div className={s.links}>

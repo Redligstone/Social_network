@@ -137,3 +137,24 @@
     align-items: center;
     margin-left: 25px;
 }
+
+@media(max-width:1360px){
+.messageImage{
+    width: 420px;
+}
+.messageContent{
+    width: 420px;
+}
+.message_input_link img{
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+}
+@media(max-width:1229px){
+   .messageImage{
+    width: 380px;
+}
+.messageContent{
+    width: 380px;
+}
+}

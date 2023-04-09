@@ -14,8 +14,10 @@ let User = ({ user, followingInProgress, follow, unfollow, ...props }) => {
                 </div>
 
                 <div className={s.info_container}>
-                    <div className={s.name}><NavLink to={'/profile/' + user.id} className={s.name}>{user.name}</NavLink></div>
-                    <a href='#' className={s.location}>{"userProps.country}, {userProps.city"}</a>
+                    <div className={s.name}>
+                        <NavLink to={'/profile/' + user.id} className={s.name}>{user.name}
+                        </NavLink>
+                    </div>
                     <div className={s.status}>{user.status}</div>
                 </div>
 

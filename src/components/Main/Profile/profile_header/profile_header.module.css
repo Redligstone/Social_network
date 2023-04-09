@@ -26,3 +26,12 @@
 
     
 }
+@media(max-width:1360px){
+    .info{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 2fr 9fr;
+    grid-template-rows: 380px;
+}
+}

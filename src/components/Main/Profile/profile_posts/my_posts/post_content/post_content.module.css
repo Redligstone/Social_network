@@ -29,3 +29,20 @@
     object-fit: contain;
     border-radius: 10px;
 }
+
+@media(max-width:1360px){
+    .text{
+        width: 810px;
+    }
+    .imgWrap{
+        width: 810px;
+    }
+}
+@media(max-width:1229px){
+    .text{
+        width: 730px;
+    }
+    .imgWrap{
+        width: 730px;
+    }
+}

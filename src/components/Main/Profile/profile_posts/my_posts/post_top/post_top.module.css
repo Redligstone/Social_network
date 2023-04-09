@@ -42,3 +42,14 @@
     height: 25px;
     filter: invert(48%) sepia(79%) saturate(10%) hue-rotate(150deg) brightness(1500%) contrast(10%);
 }
+
+@media(max-width:1360px){
+    .title {
+        margin-right: 600px;
+    }
+}
+@media(max-width:1229px){
+    .title {
+        margin-right: 500px;
+    }
+}

@@ -1,4 +1,3 @@
-import { act } from "react-dom/test-utils";
 import { stopSubmit } from "redux-form";
 import { authAPI,securityAPI } from "../API/API";
 
@@ -71,9 +70,13 @@ export const login = (email, password, rememberMe,captcha) => {
                 if(data.resultCode === 10){
                     dispatch(getCaptchaUrl())
                 }
+                if (data.resultCode === 1) {
+                    console.log(data.messages)
+                }
                 let message = data.messages.length > 0 ? data.messages[0] : "some error";
                 dispatch(stopSubmit('login', { _error: message }))
             }
+    
         })
     }
 }

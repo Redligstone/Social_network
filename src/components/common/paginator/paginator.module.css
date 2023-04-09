@@ -47,3 +47,20 @@
     height: 50px;
     width: 50px;
 }
+
+@media(max-width:1360px){
+    .pages{
+        font-size: 16px;
+    }
+    .pages span{
+        padding: 5px 8px;
+    }
+}
+@media(max-width:1229px){
+    .pages{
+        font-size: 15px;
+    }
+    .pages span{
+        padding: 5px 7px;
+    }
+}

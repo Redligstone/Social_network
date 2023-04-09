@@ -117,3 +117,15 @@ margin-left: 5px;
 .editButton:active{
     opacity: 0.5;
 }
+
+
+@media(max-width:1360px){
+    .about{
+        margin-left: 10px;
+    }
+}
+@media(max-width:1229px){
+    .about{
+        margin-left: 40px;
+    }
+}

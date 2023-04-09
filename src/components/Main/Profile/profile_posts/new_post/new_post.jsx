@@ -39,7 +39,7 @@ const PostTextForm = (props) => {
 
                 <Field component={Textarea} name='text' placeholder='Что у вас нового?' className={s.text}  />
 
-                <a ><img src="https://www.svgrepo.com/show/494000/smile.svg" className={s.smile} /></a>
+                <a className={s.smileLink}><img src="https://www.svgrepo.com/show/494000/smile.svg" className={s.smile} /></a>
             </div >
             <div className={s.postBottom}>
                 <a>

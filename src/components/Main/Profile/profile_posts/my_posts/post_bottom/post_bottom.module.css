@@ -31,3 +31,13 @@
     color: rgb(119, 121, 126);
     
 }
+@media(max-width:1360px){
+    .container{
+        width: 810px;
+    }
+}
+@media(max-width:1229px){
+    .container{
+        width: 730px;
+    }
+}
